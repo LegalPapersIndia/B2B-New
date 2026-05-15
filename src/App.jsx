@@ -6,19 +6,19 @@
 // import MainLayout from "./layouts/MainLayout";
 
 // // PUBLIC PAGES
-// import Home from "./pages/Home";
-// import About from "./pages/About";
-// import ContactPage from "./pages/ContactPage";
-// import Blog from "./pages/Blog";
-// import HelpCenter from "./pages/HelpCenter";
-// import Careers from "./pages/Careers";
-// import BecomeSeller from "./pages/BecomeSeller";
-// import PrivacyPolicy from "./pages/PrivacyPolicy";
-// import TermsAndConditions from "./pages/TermsAndConditions";
-// import CookiesPolicy from "./pages/CookiesPolicy";
-// import RefundPolicy from "./pages/RefundPolicy";
-// import Login from "./pages/Login";
-// import Register from "./pages/Register";
+// import Home from "./Pages/Home";
+// import About from "./Pages/About";
+// import ContactPage from "./Pages/ContactPage";
+// import Blog from "./Pages/Blog";
+// import HelpCenter from "./Pages/HelpCenter";
+// import Careers from "./Pages/Careers";
+// import BecomeSeller from "./Pages/BecomeSeller";
+// import PrivacyPolicy from "./Pages/PrivacyPolicy";
+// import TermsAndConditions from "./Pages/TermsAndConditions";
+// import CookiesPolicy from "./Pages/CookiesPolicy";
+// import RefundPolicy from "./Pages/RefundPolicy";
+// import Login from "./Pages/Login";
+// import Register from "./Pages/Register";
 
 // function App() {
 //   return (
@@ -55,26 +55,26 @@ import MainLayout from "./layouts/MainLayout";
 import SellerLayout from "./layouts/SellerLayout";
 
 // PUBLIC PAGES
-import Home from "./pages/Home";
-import About from "./pages/About";
-import ContactPage from "./pages/ContactPage";
-import Blog from "./pages/Blog";
-import HelpCenter from "./pages/HelpCenter";
-import Careers from "./pages/Careers";
-import BecomeSeller from "./pages/BecomeSeller";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import TermsAndConditions from "./pages/TermsAndConditions";
-import CookiesPolicy from "./pages/CookiesPolicy";
-import RefundPolicy from "./pages/RefundPolicy";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import ContactPage from "./Pages/ContactPage";
+import Blog from "./Pages/Blog";
+import HelpCenter from "./Pages/HelpCenter";
+import Careers from "./Pages/Careers";
+import BecomeSeller from "./Pages/BecomeSeller";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import TermsAndConditions from "./Pages/TermsAndConditions";
+import CookiesPolicy from "./Pages/CookiesPolicy";
+import RefundPolicy from "./Pages/RefundPolicy";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 
 // SELLER PAGES
-import SellerDashboard from "./pages/seller/SellerDashboard";
-import AddProduct from "./pages/seller/AddProduct";
-import MyProducts from "./pages/seller/MyProducts";
-import SellerLeads from "./pages/seller/SellerLeads";
-import SellerProfile from "./pages/seller/SellerProfile";
+import SellerDashboard from "./Pages/seller/SellerDashboard";
+import AddProduct from "./Pages/seller/AddProduct";
+import MyProducts from "./Pages/seller/MyProducts";
+import SellerLeads from "./Pages/seller/SellerLeads";
+import SellerProfile from "./Pages/seller/SellerProfile";
 
 // PROTECTED ROUTE
 import SellerProtectedRoute from "./routes/SellerProtectedRoute";
@@ -82,7 +82,7 @@ import SellerProtectedRoute from "./routes/SellerProtectedRoute";
 import ScrollToTop from "./components/ScrollToTop";
 
 import CategoryDetails from "./Pages/Category/CategoryDetails";
-// import SubCategoryPage from "./pages/SubCategory/SubCategoryPage";
+// import SubCategoryPage from "./Pages/SubCategory/SubCategoryPage";
 
 function App() {
   return (
