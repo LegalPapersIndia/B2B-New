@@ -542,7 +542,7 @@ import img7 from "../../assets/Automobile.jpg";
 import img8 from "../../assets/Agriculture.jpg";
 import img9 from "../../assets/General.jpg";
 
-import Medical from "../../assets/Categories/medical.jpg";
+import Medical from "../../assets/Categories/Medical.jpg";
 
 import InquiryModal from "../../components/common/InquiryModal";
 
