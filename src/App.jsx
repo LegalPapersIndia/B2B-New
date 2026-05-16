@@ -1,5 +1,3 @@
-
-
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // // LAYOUTS
@@ -82,7 +80,8 @@ import SellerProtectedRoute from "./routes/SellerProtectedRoute";
 import ScrollToTop from "./components/ScrollToTop";
 
 import CategoryDetails from "./Pages/Category/CategoryDetails";
-// import SubCategoryPage from "./Pages/SubCategory/SubCategoryPage";
+import SubCategoryPage from "./Pages/SubCategory/SubCategoryPage";
+import ProductDetailsPage from "./Pages/Product/ProductDetailsPage";
 
 function App() {
   return (
@@ -105,12 +104,16 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/category/:slug" element={<CategoryDetails />} />
-          <Route path="/category/:category" element={<CategoryDetails />} />
-          {/* 
-<Route
-  path="/category/:category/subcategory/:subcategory"
-  element={<SubCategoryPage />}
-/> */}
+
+          <Route
+            path="/category/:categorySlug/subcategory/:subcategorySlug"
+            element={<SubCategoryPage />}
+          />
+          
+          <Route
+  path="/category/:categorySlug/subcategory/:subcategorySlug/product/:productSlug"
+  element={<ProductDetailsPage />}
+/>
         </Route>
 
         <Route

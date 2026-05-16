@@ -778,7 +778,7 @@ const Navbar = () => {
                   </Link>
 
                   <Link
-                    to="/seller/register"
+                    to="/register"
                     className="hidden md:flex items-center gap-2 bg-[#F54900] hover:bg-[#d63f00] text-white px-6 py-2.5 rounded-xl font-medium transition-all text-sm shadow-md"
                   >
                     <FaStore />

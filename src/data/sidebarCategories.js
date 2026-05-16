@@ -75,3 +75,30 @@ export const sidebarCategories = {
   ],
 
 };
+
+
+
+// export const sidebarCategories = {
+
+//   electronics: [
+//     "Mobile Phones",
+//     "Laptops",
+//     "Televisions",
+//     "Smart Watches",
+//     "Headphones",
+//   ],
+
+//   fashion: [
+//     "T Shirts",
+//     "Jeans",
+//     "Shoes",
+//     "Jackets",
+//   ],
+
+//   furniture: [
+//     "Sofas",
+//     "Beds",
+//     "Dining Tables",
+//   ],
+
+// };
